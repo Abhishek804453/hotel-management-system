@@ -1,0 +1,66 @@
+```gitignore id="bestgitignore01"
+# =========================
+# Logs
+# =========================
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Node Modules
+# =========================
+
+node_modules/
+dist/
+dist-ssr/
+
+# =========================
+# Environment Files
+# =========================
+
+.env
+.env.*
+*.local
+
+# =========================
+# Java / Spring Boot
+# =========================
+
+target/
+*.class
+*.jar
+*.war
+
+# =========================
+# IDE Files
+# =========================
+
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+.DS_Store
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Temporary Files
+# =========================
+
+*.TEMP.jsx
+
+# =========================
+# Vercel
+# =========================
+
+.vercel/
+```

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: #0b0f19;
+  background-image:
+    radial-gradient(ellipse at top left, rgba(67, 56, 202, 0.4), transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(190, 24, 93, 0.4), transparent 50%),
+    radial-gradient(ellipse at center, rgba(15, 23, 42, 1) 0%, rgba(11, 15, 25, 1) 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #f8fafc;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #6366f1, #ec4899);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #4f46e5, #db2777);
+}
+
+.table-wrapper,
+.modal-content,
+.cart-wrapper,
+.bill-container,
+.chatbot-window,
+.welcome-container {
+  background: rgba(15, 23, 42, 0.6) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #f8fafc !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) !important;
+}
+
+.welcome-title,
+.modal-content h3,
+.bill-header h1,
+.cart-summary,
+.bill-grand-total {
+  color: #ffffff !important;
+  font-family: 'Outfit', sans-serif !important;
+  -webkit-text-fill-color: #ffffff !important;
+  text-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+.welcome-subtitle,
+.modal-room-details span,
+.form-group label,
+.bill-item span {
+  color: #cbd5e1 !important;
+}
+
+.form-group input,
+.form-group select,
+.chatbot-input-area input {
+  background: rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: #f8fafc !important;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #8b5cf6 !important;
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.4) !important;
+}
+
+.main-nav {
+  background: rgba(15, 23, 42, 0.7) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+}
+
+.nav-link {
+  color: #cbd5e1 !important;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+}
+
+.nav-link.active {
+  background: linear-gradient(135deg, #6366f1, #a855f7) !important;
+  color: white !important;
+}
+
+.app-table th {
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: #e2e8f0 !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.app-table td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  color: #cbd5e1 !important;
+}
+
+.app-table tr:hover td {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.app-table td[style*="font-weight: bold"],
+.app-table td[style*="color: #2c3e50"],
+.app-table td[style*="color: #27ae60"],
+.app-table td[style*="color: #e17055"] {
+  color: #f8fafc !important;
+}
+
+.app-table td[style*="color: #555"],
+.app-table td[style*="color: #636e72"],
+td[style*="color: #636e72"] {
+  color: #94a3b8 !important;
+}
+
+.chatbot-header {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6) !important;
+}
+
+.chatbot-messages {
+  background: transparent !important;
+}
+
+.message.bot {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #f8fafc !important;
+}
+
+.message.user {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6) !important;
+}
+
+.modal-room-details,
+.bill-section {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+.btn-submit,
+.btn-book,
+.btn-order,
+.chatbot-toggle {
+  background: linear-gradient(135deg, #4f46e5, #db2777) !important;
+  box-shadow: 0 4px 15px rgba(219, 39, 119, 0.4) !important;
+  border: none !important;
+}
+
+.btn-submit:hover,
+.btn-book:hover,
+.btn-order:hover {
+  background: linear-gradient(135deg, #4338ca, #be185d) !important;
+  box-shadow: 0 6px 20px rgba(219, 39, 119, 0.6) !important;
+}
