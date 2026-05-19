@@ -1,4 +1,4 @@
-```gitignore id="bestgitignore01"
+gitignore id="bestgitignore01"
 # =========================
 # Logs
 # =========================
@@ -63,4 +63,8 @@ target/
 # =========================
 
 .vercel/
-```
+gitignore id="cleanfinalgit01"
+build_output.txt
+*.TEMP.jsx
+
+
