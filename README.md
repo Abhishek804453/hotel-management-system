@@ -131,9 +131,12 @@ http://localhost:5173
 
 ---
 
-# 🔑 Environment Variables 
-Create a `.env` file if required for API keys. 
-Example: 
+# 🔑 Environment Variables
+
+Create a `.env` file if required for API keys.
+
+Example:
+
 ```env
 VITE_API_URL=http://localhost:8080/api
 
@@ -180,4 +183,3 @@ Abhishek Kumar
 GitHub:
 https://github.com/Abhishek804453
 
-    ```
